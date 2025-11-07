@@ -7,6 +7,58 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#CookiebotWidget:not(.CookiebotWidget-open) button.CookiebotWidget-logo svg {
+    height: 30px!important;
+	width:30px!important;
+}
+#CookiebotWidget .CookiebotWidget-logo svg circle {
+    fill: #5acfcf!important;
+}
+#CookiebotWidget, #CookiebotWidget button, #CookiebotWidget li, #CookiebotWidget strong, #CookiebotWidget svg, #CookiebotWidget ul {
+	box-shadow: none!important;
+}
+#CookiebotWidget #CookiebotWidget-buttons #CookiebotWidget-btn-change {
+    background-color: hsla(180,51.4%,51.6%,1)!important;
+    border-color: #ffffff!important;
+    color: #FFFFFF!important;
+}
+
+#CookiebotWidget #CookiebotWidget-buttons #CookiebotWidget-btn-withdraw {
+    background-color: hsla(180,51.4%,51.6%,1)!important;
+    border-color: hsla(180,51.4%,51.6%,1)!important;
+    color: #ffffff!important;
+    transition-delay: .3s!important;
+}
+
+#CookiebotWidget .CookiebotWidget-consent-details button {
+		color: hsla(180,51.4%,51.6%,1)!important;
+}
+#CookiebotWidget .CookiebotWidget-body .CookiebotWidget-consents-list li.CookiebotWidget-approved svg {
+    fill: hsla(180,51.4%,51.6%,1)!important;
+}
+
+#CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
+    border: 2px solid hsla(180,51.4%,51.6%,1)!important;
+    color: hsla(180,51.4%,51.6%,1)!important;
+    padding: 0em!important;
+}
+
+#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonAccept, #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonAccept, #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+    background-color: #218ea6!important;
+}
+
+#CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive {
+    border-bottom: 1px solid hsla(180,51.4%,51.6%,1)!important;
+    color: hsla(180,51.4%,51.6%,1)!important;
+}
+#CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentCookieContainerButton:hover, #CybotCookiebotDialog .CookieCard .CybotCookiebotDialogDetailBodyContentIABv2Tab:hover, #CybotCookiebotDialogDetailBodyContentCookieContainerTypes .CybotCookiebotDialogDetailBodyContentCookieProvider:not(.CybotCookiebotDialogDetailBodyContentCookieInfoCount):hover {
+    color: hsla(180,51.4%,51.6%,1)!important;
+}
+
+#CybotCookiebotDialog input:checked+.CybotCookiebotDialogBodyLevelButtonSlider {
+    background-color: hsla(180,51.4%,51.6%,1)!important;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
